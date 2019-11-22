@@ -13,6 +13,7 @@
 		4743AC042387FB420093B4D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4743AC022387FB420093B4D1 /* Main.storyboard */; };
 		4743AC062387FB450093B4D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4743AC052387FB450093B4D1 /* Assets.xcassets */; };
 		4743AC092387FB450093B4D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4743AC072387FB450093B4D1 /* LaunchScreen.storyboard */; };
+		4743AC1123880FC80093B4D1 /* RoundOpenButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4743AC1023880FC80093B4D1 /* RoundOpenButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4743AC052387FB450093B4D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4743AC082387FB450093B4D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4743AC0A2387FB450093B4D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4743AC1023880FC80093B4D1 /* RoundOpenButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundOpenButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				4743ABFC2387FB420093B4D1 /* AppDelegate.swift */,
 				4743ABFE2387FB420093B4D1 /* SceneDelegate.swift */,
 				4743AC002387FB420093B4D1 /* ViewController.swift */,
+				4743AC1023880FC80093B4D1 /* RoundOpenButton.swift */,
 				4743AC022387FB420093B4D1 /* Main.storyboard */,
 				4743AC052387FB450093B4D1 /* Assets.xcassets */,
 				4743AC072387FB450093B4D1 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				4743AC012387FB420093B4D1 /* ViewController.swift in Sources */,
 				4743ABFD2387FB420093B4D1 /* AppDelegate.swift in Sources */,
+				4743AC1123880FC80093B4D1 /* RoundOpenButton.swift in Sources */,
 				4743ABFF2387FB420093B4D1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "PB.Geekhub-iOS-HW-6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "PB.Geekhub-iOS-HW-6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
