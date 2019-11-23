@@ -9,10 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var infoTextView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let str = "- Додано функціонал відновленн паролю\n- Додано пункт налаштування до меню\n- Додано нове місто\n\rМобільний додаток для слідкування за рухом громадського транспорту в м.Черкаси у реальному часі. "
+        infoTextView.text = str
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
     }
 
 
